@@ -1,0 +1,264 @@
+.child {
+  margin-left: 4.5vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.dashboard {
+  width: 100%;
+  height: 100%;
+}
+
+.panel {
+  position: fixed;
+  width: 4vw;
+  height: 100%;
+  background-color: #333;
+  color: #999999;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.panel:hover {
+  width: 22vw;
+  overflow: visible;
+  /* transition-duration: 0.5s; */
+}
+
+.data {
+  position: relative;
+  width: 90vw;
+  left: 4vw;
+  min-height: 93.8vh;
+  padding: 0 3vw 3vw 3vw;
+  overflow-y: auto;
+  background: #f5f5f5;
+}
+
+.header {
+  height: 25px;
+  padding: 2% 0;
+  font-size: 20px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.headings {
+  display: none;
+  margin-left: 1vw;
+  width: 17vw;
+  font-size: 1.25vw;
+}
+
+.panel:hover .headings {
+  display: block;
+}
+
+.panel .icon {
+  text-align: center;
+  color: #999999;
+  width: 4vw;
+  font-size: 1.5vw;
+}
+
+.register {
+  width: 98%;
+  padding: 1vw 0;
+  padding-left: 2%;
+  padding-bottom: 2vw;
+  background: white;
+  border: 1px solid #e5e5e5;
+}
+
+.employee {
+  margin-bottom: 1.5vw;
+  width: 98%;
+  height: 2vw;
+  border: 1px solid #e5e5e5;
+  font-size: 1.5vw;
+  padding: 1vw;
+  color: #666;
+  background: #fff;
+}
+
+#profilePhoto {
+  width: 30.7% !important;
+}
+
+#joiningDate {
+  width: 30.2% !important;
+}
+
+.h-container {
+  padding: 0.7vw 0;
+  width: 22vw;
+  height: 2.9vw;
+}
+
+.h-container:hover i {
+  color: #fff;
+}
+
+.h-container:hover {
+  background-color: #3699d2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.fa-chevron-right {
+  position: absolute;
+  left: 20vw;
+}
+
+.sub-menu-company {
+  top: 2.9vw;
+}
+
+.sub-menu-leave {
+  top: 20.29vw;
+}
+
+.sub-menu-loan {
+  top: 23.2vw;
+}
+
+.sub-menu-report {
+  top: 29vw;
+}
+
+.sub-menu-leave,
+.sub-menu-loan,
+.sub-menu-company,
+.sub-menu-report {
+  display: none;
+  position: absolute;
+  width: 18vw;
+  left: 22vw;
+  background-color: #333;
+  color: #999;
+}
+
+.sub-menu-company div,
+.sub-menu-loan div,
+.sub-menu-leave div,
+.sub-menu-report div {
+  width: 18vw;
+}
+
+#loan:hover .sub-menu-loan,
+#leave:hover .sub-menu-leave,
+#settings:hover .sub-menu-company,
+#report:hover .sub-menu-report {
+  display: flex;
+  flex-direction: column;
+}
+
+/* utility */
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: row;
+}
+
+form label {
+  width: 15vw;
+  padding: 0.45vw 0;
+  font-size: 1.3vw;
+}
+
+form div {
+  align-items: center;
+  height: 3vw;
+  padding: 1vw 0;
+}
+
+form span {
+  text-align: right;
+  margin-top: 1vw;
+  padding-right: 3.5vw;
+}
+
+form button {
+  height: 3vw;
+  width: 15vw;
+  font-size: 1.3vw;
+}
+
+form input {
+  width: 30%;
+  margin-right: 4%;
+  height: 2.5vw;
+  padding: 0.2vw 1vw;
+  border: 1px solid #e5e5e5;
+}
+
+form input::placeholder {
+  font-size: 1vw;
+  color: #969696;
+  font-weight: 300;
+}
+
+form select {
+  width: 32.65%;
+  margin-right: 4%;
+  height: 3.439vw;
+  padding: 0.2vw 1vw;
+  border: 1px solid #e5e5e5;
+}
+
+.e-check {
+  height: 8vw;
+  width: 100%;
+  margin: 1.5vw 0;
+  margin-top: 0;
+}
+
+.check-box {
+  height: 6vw;
+  width: 18vw;
+  background: #fff;
+  padding: 1vw;
+  border: 1px solid #e5e5e5;
+  margin-right: 2vw;
+}
+
+.icn-cnt {
+  padding: 0.5vw 0;
+}
+
+.icn-cnt i {
+  margin-right: 1.5vw;
+}
+
+.chk-txt {
+  padding: 0.5vw 0;
+  color: #999;
+  font-size: 1vw;
+}
+
+.main-h {
+  width: 100%;
+  text-align: center;
+  font-size: 3vw;
+  margin-top: 0;
+}
+
+.btn-ctn {
+  width: 100%;
+}
+
+.btn-main {
+  height: 12vw;
+  width: 12vw;
+  background: #fff;
+}
